@@ -110,7 +110,7 @@ button {
         font-size: 25px;
         transition: 0.3s;
         margin-top: 25px;
-        margin-left: 180px;
+        margin-left: 60%;
     }
 
     .navbar .toggler:hover {
@@ -120,10 +120,6 @@ button {
 
 
 /* end navbar */
-
-.home {
-    height: 86vh;
-}
 
 .layout {
     text-align: center;
@@ -169,7 +165,6 @@ button {
 }
 
 .home .caption {
-    height: 283px;
     background-color: #fefec9;
 }
 
@@ -208,7 +203,6 @@ button {
 @media(max-width:600px) {
 
     .home .layout {
-        height: 45vh;
         width: 100%;
         text-align: center;
         background-size: cover;
@@ -216,7 +210,7 @@ button {
     }
 
     .home h1.main-heading {
-        padding-top: 40px;
+        padding-top: 30px;
         width: 80%;
         font-size: 32px;
     }
@@ -226,13 +220,12 @@ button {
     }
 
     .home .layout img {
-        top: 91%;
         left: 43%;
     }
 
     .home .caption p {
         width: 90%;
-        font-size: 20px;
+        font-size: 19px;
         margin: auto;
         padding-top: 35px;
     }
@@ -244,10 +237,6 @@ button {
 }
 
 /* end home page */
-
-.process {
-    height: 630px;
-}
 
 .process h2 {
     padding-top: 80px;
@@ -283,6 +272,7 @@ button {
     width: 62%;
     justify-content: space-between;
     margin: auto;
+    margin-bottom: 45px;
 }
 
 .process .card img {
@@ -310,14 +300,12 @@ button {
 /* process page media for small screens  */
 
 @media(max-width:600px) {
-    .process {
-        height: 165vh;
-    }
 
     .process h2 {
         width: 100%;
         font-size: 25px;
         padding-top: 10px;
+        margin-top: 25px;
     }
 
     .process h2::after {
@@ -353,7 +341,6 @@ button {
 /* end process section */
 
 .projects {
-    height: 1480px;
     background-color: #f5f5f5;
 }
 
@@ -382,6 +369,10 @@ button {
     width: 61%;
     margin: auto;
     justify-content: space-between;
+}
+
+.projects .last-line {
+    padding-bottom: 50px;
 }
 
 .projects .line .card {
@@ -425,9 +416,6 @@ button {
 /* projects page media for small screens  */
 
 @media(max-width:600px) {
-    .projects {
-        height: 565vh;
-    }
 
     .projects h2 {
         font-size: 28px;
@@ -464,10 +452,6 @@ button {
 
 /* end projects section */
 
-.team {
-    height: 620px;
-}
-
 .team h2 {
     padding-top: 80px;
     font-family: Montserrat, sans-serif;
@@ -495,6 +479,7 @@ button {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    padding-bottom: 35px;
 }
 
 .team .card {
@@ -547,9 +532,6 @@ button {
 
 /* team section media for small screens  */
 @media(max-width:600px) {
-    .team {
-        height: 255vh;
-    }
 
     .team .row {
         display: block;
@@ -565,7 +547,7 @@ button {
 
     .team .card {
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     .team .card h4 {
@@ -589,7 +571,6 @@ button {
 /* end team section */
 
 .quote {
-    height: 510px;
     background-color: #f5f5f5;
     position: relative;
 }
@@ -675,7 +656,6 @@ button {
 
 @media(max-width:600px) {
     .quote {
-        height: 60vh;
         width: 100%;
     }
 
@@ -722,7 +702,6 @@ button {
 /* end quote section */
 
 .contact {
-    height: 515px;
     background-image: linear-gradient(180deg, rgba(126, 196, 189, 0.87), #7ec4bd), url(./img/pexels-scott-webb-137604.jpg)
 }
 
@@ -754,6 +733,7 @@ button {
     justify-content: space-around;
     text-align: center;
     margin-top: 80px;
+    padding-bottom: 50px;
 }
 
 .contact img {
@@ -805,7 +785,6 @@ button {
 
 @media(max-width:600px) {
     .contact {
-        height: 120vh;
         background-size: cover;
     }
 
@@ -845,7 +824,6 @@ button {
 /* end contact section */
 
 footer {
-    height: 635px;
     background-color: black;
 }
 
@@ -920,6 +898,7 @@ footer button:hover {
 
 footer .last {
     text-align: center;
+    padding-bottom: 25px;
 }
 
 footer .last img {
@@ -946,7 +925,6 @@ footer .last a:hover {
 @media(max-width:600px) {
     footer {
         width: 100%;
-        height: 90vh;
     }
 
     footer .inputs {

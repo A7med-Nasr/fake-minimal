@@ -19,7 +19,6 @@ button {
 
 .navbar {
     width: 100%;
-    height: 105px;
 }
 
 .navbar .content {
@@ -116,10 +115,6 @@ button {
 
 /* end navbar */
 
-.home {
-    height: 850px;
-}
-
 .home .top-img {
     height: 283px;
     background-image: linear-gradient(180deg, rgba(100, 209, 198, 0.55), rgba(100, 209, 198, 0.55)), url(../../assets/img/pexels-polina-chistyakova-16353915.jpg);
@@ -188,6 +183,9 @@ button {
     margin-top: 50px;
 }
 
+.home .last-row{
+    padding-bottom: 50px;
+}
 
 .home .row .card h3 {
     font-family: Montserrat, sans-serif;
@@ -208,9 +206,6 @@ button {
 /* home media for small screens  */
 
 @media(max-width:600px) {
-    .home {
-        height: 185vh;
-    }
 
     .home .top-img {
         height: 270px;
@@ -259,7 +254,6 @@ button {
 /* end home section */
 
 .shots {
-    height: 2010px;
     background-color: #f5f5f5;
     text-align: center;
 }
@@ -287,6 +281,10 @@ button {
 .shots img {
     margin-bottom: 40px;
     height: 540px;
+}
+
+.shots .last{
+    padding-bottom: 35px;
 }
 
 .shots-caption {
@@ -331,10 +329,6 @@ button {
 /* shots media for small screens  */
 
 @media(max-width:600px) {
-    .shots {
-        height: 160vh;
-    }
-
     .shots h2 {
         font-size: 45px;
         letter-spacing: 5px;
@@ -360,7 +354,6 @@ button {
 
 /* end shots section */
 footer {
-    height: 235px;
     background-color: black;
     text-align: center;
 }
@@ -374,6 +367,7 @@ footer img {
 
 footer p {
     color: #646464;
+    padding-bottom: 25px;
 }
 
 footer a {
@@ -389,10 +383,6 @@ footer a:hover {
 /* footer media for small screens  */
 
 @media(max-width:600px) {
-    footer {
-        height: 150px;
-    }
-
     footer img {
         margin-top: 20px;
         width: 50px;
