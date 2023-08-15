@@ -208,7 +208,7 @@ button {
 @media(max-width:600px) {
 
     .home .layout {
-        height: 42vh;
+        height: 45vh;
         width: 100%;
         text-align: center;
         background-size: cover;
@@ -219,7 +219,6 @@ button {
         padding-top: 40px;
         width: 80%;
         font-size: 32px;
-        /* margin-left: px; */
     }
 
     .home h1.main-heading::after {
@@ -239,9 +238,8 @@ button {
     }
 
     .home .caption button {
-        margin-top: 25px;
-        width: 200px;
-        margin-left: 25%;
+        margin-top: 20px;
+        margin-left: 30%;
     }
 }
 
@@ -313,7 +311,7 @@ button {
 
 @media(max-width:600px) {
     .process {
-        height: 170vh;
+        height: 165vh;
     }
 
     .process h2 {
@@ -334,6 +332,7 @@ button {
 
     .process .card {
         width: 100%;
+        margin-bottom: 50px;
     }
 
     .process .card img {
@@ -427,7 +426,7 @@ button {
 
 @media(max-width:600px) {
     .projects {
-        height: 860vh;
+        height: 565vh;
     }
 
     .projects h2 {
@@ -436,6 +435,7 @@ button {
 
     .projects h2::after {
         margin-left: 40%;
+        margin-bottom: 50px;
     }
 
     .projects .line {
@@ -445,7 +445,7 @@ button {
 
     .projects .line .card {
         width: 100%;
-        margin-top: 50px;
+        margin-bottom: 50px;
     }
 
     .projects .card img {
@@ -548,7 +548,7 @@ button {
 /* team section media for small screens  */
 @media(max-width:600px) {
     .team {
-        height: 370vh;
+        height: 255vh;
     }
 
     .team .row {
@@ -565,8 +565,7 @@ button {
 
     .team .card {
         width: 100%;
-        margin: auto;
-        margin-bottom: 200px;
+        margin-bottom: 50px;
     }
 
     .team .card h4 {
@@ -580,7 +579,6 @@ button {
     .team .card .social {
         width: 100%;
         justify-content: space-between;
-
     }
 
     .team .card .social a i {
@@ -677,7 +675,7 @@ button {
 
 @media(max-width:600px) {
     .quote {
-        height: 70vh;
+        height: 60vh;
         width: 100%;
     }
 
@@ -688,25 +686,28 @@ button {
     }
 
     .quote .cards {
-        width: 66%;
-        padding-left: 25%;
         padding-top: 130px;
+        width: 70%;
+    }
+
+    .quote .cards .card1 {
+        width: 100%;
     }
 
     .quote .cards .card1 p {
-        font-size: 25px;
-        line-height: 27px;
+        font-size: 30px;
     }
 
     .quote .icon {
-        margin-left: -26px;
-        margin-top: -40px;
-        font-size: 70px;
+        margin-left: -47px;
+        margin-top: -22%;
+        font-size: 60px;
     }
 
     .quote .icon2 {
-        margin-top: -40px;
-        font-size: 70px;
+        margin-top: -22%;
+        margin-right: -48px;
+        font-size: 60px;
     }
 
     .quote .cards .card1::after {
@@ -804,7 +805,7 @@ button {
 
 @media(max-width:600px) {
     .contact {
-        height: 130vh;
+        height: 120vh;
         background-size: cover;
     }
 
@@ -883,7 +884,6 @@ footer .inputs input:focus {
     border-color: #7eb7b1;
 }
 
-
 footer .inputs textarea {
     height: 100px;
     border-top: 0px solid #000;
@@ -944,23 +944,38 @@ footer .last a:hover {
 
 /* footer media for small screens  */
 @media(max-width:600px) {
+    footer {
+        width: 100%;
+        height: 90vh;
+    }
+
     footer .inputs {
-        margin-left: 20%;
-        width: 80%;
-        margin: auto;
+        width: 100%;
     }
 
     footer .inputs input,
     textarea {
-        width: 100%;
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+    }
+
+    footer .inputs input {
+        height: 40px;
     }
 
     footer button {
-        margin-left: 33%;
-        width: 35%;
+        margin-left: 22%;
+        font-size: 25px;
+    }
+
+    footer .last img {
+        width: 40px;
     }
 
     footer p {
-        font-size: 15px;
+        font-size: 20px;
+        width: 90%;
+        margin: auto;
     }
 }

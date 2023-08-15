@@ -77,6 +77,43 @@ button {
     border-color: #7ec4bd;
 }
 
+/* navbar media for small screens  */
+
+@media(max-width:600px) {
+    .navbar {
+        height: 80px;
+        width: 100%;
+    }
+
+    .navbar .content {
+        width: 85%;
+    }
+
+    .navbar .logo-content img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .navbar .logo-content h1 {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: -10px;
+    }
+
+    .navbar .nav-content {
+        margin-top: 30px;
+    }
+
+    .navbar .nav-content a {
+        font-size: 16px;
+    }
+
+    .navbar .nav-content i {
+        font-size: 15px;
+    }
+}
+
+
 /* end navbar */
 
 .home {
@@ -168,6 +205,57 @@ button {
     line-height: 22px;
 }
 
+/* home media for small screens  */
+
+@media(max-width:600px) {
+    .home {
+        height: 185vh;
+    }
+
+    .home .top-img {
+        height: 270px;
+        background-size: cover;
+    }
+
+    .home .top-img h2 {
+        font-size: 40px;
+    }
+
+    .home .top-img h2::after {
+        margin-left: 42%;
+    }
+
+    .home .top-img p {
+        font-size: 22px;
+    }
+
+    .home .caption h2 {
+        font-size: 28px;
+    }
+
+    .home .caption h2::after {
+        margin-left: 42%;
+    }
+
+    .home .row {
+        display: block;
+        width: 100%;
+    }
+
+    .home .row .card {
+        margin-bottom: 45px;
+        width: 100%;
+    }
+
+    .home .row .card h3 {
+        font-size: 22px;
+    }
+
+    .home .row .card p {
+        font-size: 20px;
+    }
+}
+
 /* end home section */
 
 .shots {
@@ -175,8 +263,6 @@ button {
     background-color: #f5f5f5;
     text-align: center;
 }
-
-
 
 .shots h2 {
     padding-top: 80px;
@@ -242,6 +328,36 @@ button {
     background-color: #fff;
 }
 
+/* shots media for small screens  */
+
+@media(max-width:600px) {
+    .shots {
+        height: 160vh;
+    }
+
+    .shots h2 {
+        font-size: 45px;
+        letter-spacing: 5px;
+    }
+
+    .shots h2::after {
+        margin-left: 39%;
+    }
+
+    .shots img {
+        width: 80%;
+        height: 300px;
+    }
+
+    .layout img {
+        left: 42%;
+    }
+
+    .shots-caption p {
+        font-size: 20px;
+    }
+}
+
 /* end shots section */
 footer {
     height: 235px;
@@ -268,4 +384,22 @@ footer a {
 
 footer a:hover {
     color: #7ec4bd;
+}
+
+/* footer media for small screens  */
+
+@media(max-width:600px) {
+    footer {
+        height: 150px;
+    }
+
+    footer img {
+        margin-top: 20px;
+        width: 50px;
+        margin-bottom: 10px;
+    }
+
+    footer p {
+        color: #646464;
+    }
 }
